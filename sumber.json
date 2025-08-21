@@ -1,32 +1,111 @@
 {
-  "metadata": {
-    "sumber": "Badan Pusat Statistik (BPS) Kota Yogyakarta",
-    "tahun": 2023,
-    "update_terakhir": "2024-03-15"
-  },
-  "indikator": {
-    "penduduk": {
-      "total": 422732,
-      "laki_laki": 208547,
-      "perempuan": 214185,
-      "rasio_jenis_kelamin": 97.4
-    },
-    "pdrb": {
-      "atas_dasar_harga_berlaku": 65342900,
-      "atas_dasar_harga_konstan": 41238500,
-      "pertumbuhan_ekonomi": 5.23,
-      "satuan": "juta rupiah"
-    },
-    "kemiskinan": {
-      "jumlah_penduduk_miskin": 42300,
-      "persentase": 9.8,
-      "garis_kemiskinan": 527123,
-      "satuan": "rupiah/kapita/bulan"
-    },
-    "pengangguran": {
-      "tingkat_pengangguran_terbuka": 4.15,
-      "jumlah_penganggur": 18420,
-      "satuan": "persen"
+  "penduduk": {
+    "var": "Jumlah Penduduk",
+    "tahun": [2021, 2022, 2023],
+    "datacontent": {
+      "2021": 420000,
+      "2022": 425000,
+      "2023": 430000
     }
+  },
+  "rasio_jenis_kelamin": {
+    "var": "Rasio Jenis Kelamin",
+    "tahun": [2021, 2022, 2023],
+    "datacontent": {
+      "2021": 97.2,
+      "2022": 97.3,
+      "2023": 97.4
+    }
+  },
+  "wilayah": {
+    "var": "Luas Wilayah (Km2)",
+    "tahun": [2023],
+    "datacontent": {
+      "2023": 32.5
+    }
+  },
+  "kepadatan_penduduk": {
+    "var": "Kepadatan Penduduk (jiwa/km2)",
+    "tahun": [2021, 2022, 2023],
+    "datacontent": {
+      "2021": 12800,
+      "2022": 12900,
+      "2023": 13000
+    }
+  },
+  "ipm": {
+    "var": "Indeks Pembangunan Manusia",
+    "tahun": [2021, 2022, 2023],
+    "datacontent": {
+      "2021": 78.2,
+      "2022": 78.9,
+      "2023": 79.3
+    }
+  },
+  "inflasi_yony": {
+    "var": "Inflasi Year on Year (%)",
+    "tahun": [2021, 2022, 2023],
+    "turtahun": ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"],
+    "datacontent": {
+      "2023-01": 5.2,
+      "2023-02": 5.0,
+      "2023-03": 4.8,
+      "2023-04": 4.6,
+      "2023-05": 4.4
+    }
+  },
+  "pdrb_konstan": {
+    "var": "PDRB Atas Dasar Harga Konstan (Miliar Rp)",
+    "tahun": [2021, 2022, 2023],
+    "datacontent": {
+      "2021": 41238,
+      "2022": 43011,
+      "2023": 45220
+    }
+  },
+  "umr": {
+    "var": "Upah Minimum Regional (Rp)",
+    "tahun": [2021, 2022, 2023],
+    "datacontent": {
+      "2021": 1900000,
+      "2022": 2000000,
+      "2023": 2100000
+    }
+  },
+  "infografis": {
+    "data": [
+      null,
+      [
+        {
+          "id": 1,
+          "judul": "Infografis Penduduk 2023",
+          "gambar": "https://dummyimage.com/600x400/194545/fff&text=Infografis+Penduduk"
+        },
+        {
+          "id": 2,
+          "judul": "Infografis IPM 2023",
+          "gambar": "https://dummyimage.com/600x400/333/fff&text=Infografis+IPM"
+        }
+      ]
+    ]
+  },
+  "publikasi": {
+    "data": [
+      null,
+      [
+        {
+          "id": 101,
+          "judul": "Statistik Penduduk Kota Yogyakarta 2023",
+          "tanggal_rilis": "2024-02-15",
+          "file": "https://bps.go.id/publikasi/penduduk2023.pdf"
+        },
+        {
+          "id": 102,
+          "judul": "Produk Domestik Regional Bruto 2023",
+          "tanggal_rilis": "2024-03-01",
+          "file": "https://bps.go.id/publikasi/pdrb2023.pdf"
+        }
+      ]
+    ]
   }
 }
