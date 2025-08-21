@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "sumber": "Badan Pusat Statistik (BPS) Kota Yogyakarta",
+    "tahun": 2023,
+    "update_terakhir": "2024-03-15"
+  },
+  "indikator": {
+    "penduduk": {
+      "total": 422732,
+      "laki_laki": 208547,
+      "perempuan": 214185,
+      "rasio_jenis_kelamin": 97.4
+    },
+    "pdrb": {
+      "atas_dasar_harga_berlaku": 65342900,
+      "atas_dasar_harga_konstan": 41238500,
+      "pertumbuhan_ekonomi": 5.23,
+      "satuan": "juta rupiah"
+    },
+    "kemiskinan": {
+      "jumlah_penduduk_miskin": 42300,
+      "persentase": 9.8,
+      "garis_kemiskinan": 527123,
+      "satuan": "rupiah/kapita/bulan"
+    },
+    "pengangguran": {
+      "tingkat_pengangguran_terbuka": 4.15,
+      "jumlah_penganggur": 18420,
+      "satuan": "persen"
+    }
+  }
+}
